@@ -2,7 +2,7 @@
 const { name, image, favorite_emoji, github_permalink, github_profile, codepen_profile, bio } = Astro.props;
 ---
 
-<a href=""
+<button onclick="window.location.href = '/';">Back to Home</button>
 
 <img src={image} alt={name} />
 <h1><span>{favorite_emoji}</span> {name}</h1>
